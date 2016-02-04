@@ -1,0 +1,29 @@
+{
+  "name": "roulettely",
+  "version": "0.0.0",
+  "homepage": "https://github.com/nhanphan/roulettely",
+  "main": "server/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nhanphan/roulettely"
+  },
+  "bugs": {
+    "url": "https://github.com/nhanphan/roulettely/issues"
+  },
+  "dependencies": {
+    "express": "4.13.3",
+    "helmet": "^1.1.0",
+    "jade": "^1.11.0",
+    "lodash": "^4.0.0",
+    "shortid": "^2.2.4",
+    "passport": "^0.3.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "0.10.38"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node server/server.js"
+  }
+}
